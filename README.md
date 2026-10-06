@@ -1,4 +1,4 @@
-# 🫀 CardioIA - Sistema de Triagem Cardiológica Automática
+# CardioIA - Sistema de Triagem Cardiológica Automática
 
 Este repositório contém a entrega da **Fase 2** do projeto **CardioIA**, desenvolvido para a FIAP. O objetivo principal é construir algoritmos capazes de ler relatos de pacientes e automatizar a triagem clínica, simulando o raciocínio de sistemas médicos reais.
 
