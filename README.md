@@ -8,7 +8,7 @@ O projeto foi dividido em duas abordagens de arquitetura de software: um **Motor
 
 ## 📺 Apresentação em Vídeo
 > **Assista aqui à demonstração completa do projeto:**
-> [🔗 INSIRA AQUI O SEU LINK DO YOUTUBE NÃO LISTADO]
+> [[🔗 https://youtu.be/lNxuFrSl8Zc ]]
 
 ---
 
@@ -16,14 +16,14 @@ O projeto foi dividido em duas abordagens de arquitetura de software: um **Motor
 
 ```text
 📦 CardioIA-Triagem-Fase2
-├── 📁 Parte_1/
+├── 📁 Parte 1/
 │   ├── 📁 dados/
 │   │   ├── frases.txt (10 relatos simulados de pacientes)
 │   │   └── mapa_conhecimento.csv (Ontologia clínica com sintomas e doenças)
 │   └── 📁 src/
 │       └── main.py (Script de inferência lógica)
 │
-├── 📁 Parte_2/
+├── 📁 Parte 2/
 │   ├── base_simulada.csv (50 relatos classificados por nível de risco)
 │   └── decision_tree.ipynb (Notebook com a análise exploratória e treinamento do modelo)
 │
@@ -61,6 +61,6 @@ Avaliação e Vieses do Modelo:
 Ao analisar a Matriz de Confusão gerada no Notebook, identificamos um padrão interessante: o modelo desenvolveu um viés conservador. Ele teve facilidade em classificar os extremos (alto e baixo risco), mas tendeu a classificar os pacientes de "Médio Risco" como sendo de "Alto Risco". Em um contexto de triagem hospitalar (como o Protocolo de Manchester), este é um comportamento defensivo aceitável, pois o algoritmo prefere errar por excesso de zelo a enviar um paciente potencialmente grave para a sala de espera comum.
 
 👨‍💻 Autor
-Lucas Rodrigues Barzon
+Lucas Rodrigues Barzon - RM567914
 
 FIAP - Ano 2
